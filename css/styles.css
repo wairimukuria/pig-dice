@@ -1,0 +1,58 @@
+h1{
+  font-style: normal;
+  font-family: red serif;
+  color: ffffff;
+  }
+.container {
+  width: 100%;
+}
+.well{
+  color: #ffffff
+}
+#player2 {
+  float: right;
+}
+
+#show-new-score {
+  display: none;
+}
+
+#player1 {
+  cursor: pointer;
+  color: black;
+}
+
+#player1:hover {
+  text-decoration: underline;
+}
+
+#show-new-score {
+  display: none;
+}
+
+#player2 {
+  cursor: pointer;
+  color: white;
+}
+
+#player2:hover {
+  text-decoration: underline;
+}
+
+.buttons {
+  margin: auto;
+    width: 20%;
+    padding: 10px;
+}
+.btn-primary {
+  background-color: black;
+}
+.form-group{
+  border: 2px solid red;
+  border-radius: 12px;
+  background-color: lightblue;
+  padding-top: 50px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 80px;
+}
