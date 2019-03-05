@@ -19,6 +19,8 @@ window.onload = function() {
          else {
             throwChance = 1;
         }
+
+
         alert('players should switch');
     }
     // player 1 button
@@ -32,6 +34,10 @@ window.onload = function() {
         var diceThrowScore = randomDicethrow();
         $('#current-0').html(diceThrowScore)
         if(diceThrowScore == 1) {
+            player1Score = 0;
+            $('#current-0').html(0);
+            $('#score-0').html(0);
+
             switchPlayer();
 
             return;
@@ -51,6 +57,9 @@ window.onload = function() {
         var diceThrowScore = randomDicethrow();
         $('#current-1').html(diceThrowScore)
         if(diceThrowScore == 1) {
+            player2Score = 0;
+            $('#current-1').html(0);
+            $('#score-1').html(0);
             switchPlayer();
 
             return;
@@ -71,4 +80,11 @@ window.onload = function() {
         $('#current-0').html(0)
         $('#current-1').html(0)
     });
+
+    if(player1Score >=100) {
+        alert('Player 1 is the winner');
+    }
+    if(player2Score >=100) {
+        alert('Player 2 is the winner');
+    }
 }

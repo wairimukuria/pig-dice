@@ -1,6 +1,6 @@
 PIG DICE
 
-PIG DICE.1st March 2019
+PIG DICE is a game of dices which has two players.the players take turns to roll a die which earns them points.however the rules state that if a player roles and scores 1,the previously accumulated scores will be reduced to zero but if the player scores another number besides 1 the scores accumulate and on holding the scores are recorded.the player that scores 100 points first is the winner.1st March 2019
 
 #### By **Margaret Wairimu Kuria**
 
@@ -13,7 +13,8 @@ All the application requires is a text editor to run the code and a web browser 
 
 ## Behaviour Driven Development
 
-the application functionality is mostly what is put into first consideration when developing the application .
+the application functionality is mostly what is put into first consideration when developing the application .the current score should display and so should the cumulative/total scores.player roles 1 the scores are zero and if player holds the  current scores are recorded.and if a player scores 100 first,he/she is the winner.
+
 ## Technologies Used
 
 The application is built on the hypertext markup language(HTML)with the use of custom made stylesheets that use cascading,box models and floats, CSS  using the bootstrap front-end framework plus more custom styles and JavaScript using both JavaScriptand jquery functions for the business and the user interface logic run the specifications of the application and give output.
