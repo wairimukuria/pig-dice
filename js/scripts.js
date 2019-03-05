@@ -2,6 +2,10 @@ window.onload = function() {
     var throwChance = 1; // throw chance for the first player - default 1
     var player1Score = 0;
     var player2Score = 0;
+
+
+
+
     $('#score-1').html(0);
     $('#score-0').html(0);
     $('#current-0').html(0)
