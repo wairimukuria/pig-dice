@@ -1,6 +1,6 @@
 PIG DICE
 
-PIG DICE is a game of dices which has two players.the players take turns to roll a die which earns them points.however the rules state that if a player roles and scores 1,the previously accumulated scores will be reduced to zero but if the player scores another number besides 1 the scores accumulate and on holding the scores are recorded.the player that scores 100 points first is the winner.1st March 2019
+this is a game of dices which has two players.the players take turns to roll a die which earns them points.however the rules state that if a player roles and scores 1,the previously accumulated scores will be reduced to zero but if the player scores another number besides 1 the scores accumulate and on holding the scores are recorded.the player that scores 100 points first is the winner.1st March 2019
 
 #### By **Margaret Wairimu Kuria**
 
