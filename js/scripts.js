@@ -21,7 +21,7 @@ window.onload = function() {
         }
 
 
-        alert('players should switch');
+        alert('scored 1,switch to player next player!');
     }
     // player 1 button
     $('#player-1-btn').click(function(event) {
