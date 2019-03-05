@@ -6,6 +6,7 @@ window.onload = function() {
 
 
 
+
     $('#score-1').html(0);
     $('#score-0').html(0);
     $('#current-0').html(0)
@@ -23,25 +24,19 @@ window.onload = function() {
          else {
             throwChance = 1;
         }
-
-
-        alert('scored 1,switch to player next player!');
+        alert('You scored 1,switch to next player!');
     }
     // player 1 button
     $('#player-1-btn').click(function(event) {
         event.preventDefault();
         if(throwChance == 2) {
-            alert('not yet your chance');
+            alert('its player twos turn!');
 
             return;
         }
         var diceThrowScore = randomDicethrow();
         $('#current-0').html(diceThrowScore)
         if(diceThrowScore == 1) {
-            player1Score = 0;
-            $('#current-0').html(0);
-            $('#score-0').html(0);
-
             switchPlayer();
 
             return;
@@ -55,15 +50,12 @@ window.onload = function() {
     $('#player-2-btn').click(function(event) {
         event.preventDefault();
         if(throwChance == 1) {
-            alert('not yet your chance');
+            alert('its player ones turn!');
             return;
         }
         var diceThrowScore = randomDicethrow();
         $('#current-1').html(diceThrowScore)
         if(diceThrowScore == 1) {
-            player2Score = 0;
-            $('#current-1').html(0);
-            $('#score-1').html(0);
             switchPlayer();
 
             return;
@@ -75,20 +67,20 @@ window.onload = function() {
     });
     // new game
     $("#new-game").click(function(event) {
-        event.preventDefault();
-        player1Score = 0;
-        player2Score = 0;
-        throwChance = 1;
-        $('#score-1').html(0);
-        $('#score-0').html(0);
-        $('#current-0').html(0)
-        $('#current-1').html(0)
-    });
+       event.preventDefault();
+       player1Score = 0;
+       player2Score = 0;
+       throwChance = 1;
+       $('#score-1').html(0);
+       $('#score-0').html(0);
+       $('#current-0').html(0)
+       $('#current-1').html(0)
+   });
 
-    if(player1Score >=100) {
-        alert('Player 1 is the winner');
-    }
-    if(player2Score >=100) {
-        alert('Player 2 is the winner');
-    }
+   if(player1Score >=100) {
+       alert('Player 1 is the winner');
+   }
+   if(player2Score >=100) {
+       alert('Player 2 is the winner');
+   }
 }
