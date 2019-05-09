@@ -6,7 +6,7 @@ this is a game of dices which has two players.the players take turns to roll a d
 
 ## Description
 
-this is a website of a pig dice game created which has two players.the game follows the gaming rules where the players take turns to play.player 1 takes a turn and presses the button "roll dice" which allegedly rolls a die and generates a random number.if the number is one,the game automatically switches turns and its the player 2's turn.however if player one scored another value that is not one,their turn continues and the same applies for player 2.
+this is a website of a pig dice game created which has two players.the game follows the gaming rules where the players take turns to play.player 1 takes a turn and presses the button "roll dice" which allegedly rolls a die and generates a random number between 1 and 6.if the number is one,the game automatically switches turns and its the player 2's turn.however if player one scored another value that is not one,their turn continues and the same applies for player 2.
 
 ## Setup/Installation Requirements
 
