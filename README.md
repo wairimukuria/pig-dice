@@ -26,4 +26,4 @@ if you happen to launch the application and run into any issues or have question
 
 ### License
 
-Copyright (c) &copy 2019 G PL License.
+Copyright (c)  2019 G PL License.
